@@ -32,7 +32,8 @@ public class StepDefinations extends Utils {
 	TestDataBuild data = new TestDataBuild();
 	
 	public String newMethod() {
-		return "Hello World";
+		String str ="Hello World";
+		return str;
 	}
 
 	@Given("Add Place payload with {string} {string} {string}")
