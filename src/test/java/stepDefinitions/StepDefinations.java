@@ -40,6 +40,10 @@ public class StepDefinations extends Utils {
 		String str ="Hello World";
 		return str;
 	}
+	public String thirdNewMethod() {
+		String str ="No World";
+		return str;
+	}
 
 	@Given("Add Place payload with {string} {string} {string}")
 	public void add_place_payload_with(String name, String language, String address) throws IOException {
