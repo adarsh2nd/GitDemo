@@ -30,6 +30,10 @@ public class StepDefinations extends Utils {
 	Response response;
 	static String place_id;
 	TestDataBuild data = new TestDataBuild();
+	
+	public String newMethod() {
+		return "Hello World";
+	}
 
 	@Given("Add Place payload with {string} {string} {string}")
 	public void add_place_payload_with(String name, String language, String address) throws IOException {
