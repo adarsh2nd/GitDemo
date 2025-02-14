@@ -32,7 +32,12 @@ public class StepDefinations extends Utils {
 	TestDataBuild data = new TestDataBuild();
 	
 	public String newMethod() {
-		String str ="Hello World+Bye World";
+		String str ="Bye World";
+		return str;
+	}
+	
+	public String anotherNewMethod() {
+		String str ="Hello World";
 		return str;
 	}
 
